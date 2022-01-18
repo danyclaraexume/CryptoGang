@@ -2,7 +2,6 @@ ul {
     list-style-type: none;
     float: left;
     width: 30rem;
-    padding-top: 1rem;
 }
 
 li {
@@ -14,8 +13,9 @@ li {
     height: 3rem;
     padding-left: 20px;
     width: 30rem;
-    border: 1px solid grey;
-    border-radius: 5px;
+    border-bottom: 1px solid grey;
+    border-right: 1px solid grey;
+    border-top: 1px solid grey;
     float: right;
 }
 
@@ -35,20 +35,28 @@ li {
     display: flex;
     justify-content: center;
     border-bottom: 2px solid grey;
-    padding: 2rem 2rem 2rem 2rem;
+    padding: 1rem 1rem 1rem 1rem;
 }
 
 .menuLi {
-    width: 40px;
+    width: 60px;
     font-size: 12px;
     text-align: center;
+    box-shadow: rgba(58, 58, 58, 0.596) 2px 2px 3px 3px;
+    border-radius: 10%;
+    padding: 3px 3px 3px 3px;
 }
 
 .menuLink img {
-    width: 40px;
-    height: 40px;
-    border: solid rgb(255, 255, 255) 1px;
-    background-color: rgba(39, 65, 71, 0.582);
-    border-radius: 10%;
+    width: 30px;
+    height: 30px;
     float: center;
+}
+
+.searchIcon {
+    width: 3rem;
+    height: 3rem;
+    border-bottom: 1px solid grey;
+    border-left: 1px solid grey;
+    border-top: 1px solid grey;
 }

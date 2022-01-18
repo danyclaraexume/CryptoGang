@@ -7,9 +7,9 @@ import HomeIcon from '../../Images/home-icon.png';
 import WalletIcon from '../../Images/wallet-icon.png'
 import WatchlistIcon from '../../Images/watchlist-icon.png'
 import CalculatorIcon from '../../Images/calculator-icon.png'
+import SearchIcon from '../../Images/search-icon.png'
 
 const Menu = ({filterValue}) => {
-
     return (
         <div className="MenuContainer">
             <ul>
@@ -18,9 +18,10 @@ const Menu = ({filterValue}) => {
                 <li className='menuLi'><Link to='/watchlist' className='menuLink'><img src={WatchlistIcon} alt='watchlistIcon' /></Link><label>Watchlist</label></li>
                 <li className='menuLi'><Link to='/calculator' className='menuLink'><img src={CalculatorIcon} alt='calculatorIcon' /></Link><label>Calculator</label></li>
             </ul>
+            <img className='searchIcon' src={SearchIcon} alt='search-icon' />
             <input type="text" onChange={filterValue} className="searchInput" placeholder="Search coin..."/>
-            <button className="loginButton">Login</button>
-            <button className="loginButton">Sign Up</button>
+            {/* <button className="loginButton">Login</button>
+            <button className="loginButton">Sign Up</button> */}
         </div>        
     );
 }
