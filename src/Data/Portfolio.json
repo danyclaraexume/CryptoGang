@@ -1,0 +1,19 @@
+{
+    "owned": [
+        {
+            "symbol":"ETH",
+            "unitPrice":2453.63,
+            "quantity": 0.010189,
+            "purchase": 25,
+            "filledDate":"2021-07-15 18:04"
+        },
+        {
+            "symbol":"SHIB",
+            "unitPrice":0.00008049,
+            "quantity": 1242394.23000000,
+            "purchase": 100,
+            "filledDate":"2021-11-05 18:56"
+
+        }
+    ]
+}

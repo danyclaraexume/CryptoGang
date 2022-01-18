@@ -11,14 +11,12 @@ function CoinDisplay({InitialData,loadingStatus,filtered}) {
 
   React.useEffect(() => {
     setCoins(InitialData);
-}, [InitialData])
+}, [InitialData]);
 
   //Get Current Coins
   const indexOfLastCoin = currentPage * coinsPerPage;
   const indexOfFirstCoin = indexOfLastCoin - coinsPerPage;
   const currentCoins = coins.slice(indexOfFirstCoin, indexOfLastCoin);
-
-    console.log(coins)
 
   let filteredCoins = coins.filter(coin => {
     return (coin.name.toLowerCase().includes(filtered.toLowerCase())
