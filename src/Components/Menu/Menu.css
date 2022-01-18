@@ -37,3 +37,18 @@ li {
     border-bottom: 2px solid grey;
     padding: 2rem 2rem 2rem 2rem;
 }
+
+.menuLi {
+    width: 40px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.menuLink img {
+    width: 40px;
+    height: 40px;
+    border: solid rgb(255, 255, 255) 1px;
+    background-color: rgba(39, 65, 71, 0.582);
+    border-radius: 10%;
+    float: center;
+}
