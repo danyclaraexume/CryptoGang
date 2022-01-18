@@ -1,0 +1,39 @@
+ul {
+    list-style-type: none;
+    float: left;
+    width: 30rem;
+    padding-top: 1rem;
+}
+
+li {
+    float: left;
+    margin-left: 3rem;
+}
+
+.searchInput {
+    height: 3rem;
+    padding-left: 20px;
+    width: 30rem;
+    border: 1px solid grey;
+    border-radius: 5px;
+    float: right;
+}
+
+.loginButton {
+    margin-left: 2rem;
+    height: 3rem;
+    width: 5rem;
+    background-color: rgb(146, 146, 146);
+    color: black;
+    font-size: 18px;
+    border: 1px solid gray;
+
+    
+}
+
+.MenuContainer {
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid grey;
+    padding: 2rem 2rem 2rem 2rem;
+}
